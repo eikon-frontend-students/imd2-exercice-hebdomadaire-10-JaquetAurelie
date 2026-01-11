@@ -31,6 +31,8 @@ body {
   border-radius: 20px;
   font-family: Inter, sans-serif;
   gap: 30px;
+  margin: 100px;
+  box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
 }
 
 .player-header {
@@ -60,12 +62,14 @@ body {
 .player-progress-bar {
   background-color: #f6f6ef;
   height: 6px;
-  width: 403px;
+  width: 283px;
   border-radius: 50px;
 }
 
 .player-progress-inner {
   background-color: #e783bc;
+  height: 6px;
+  border-radius: 50px 0 0 50px;
 }
 
 .player-time {
@@ -76,9 +80,9 @@ body {
 
 .player-button {
   background-color: #e783bc;
-  padding: 37px;
+  padding: 27.5px 25px;
   width: fit-content;
-  border-radius: 50px;
+  border-radius: 100px;
   color: white;
   font-size: 20px;
 }
